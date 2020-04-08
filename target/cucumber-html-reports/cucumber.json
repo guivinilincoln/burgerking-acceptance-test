@@ -11,11 +11,11 @@
         "steps": [
           {
             "result": {
-              "duration": 118842000,
+              "duration": 182260800,
               "status": "passed"
             },
             "line": 5,
-            "name": "Navego ate a pagina de indrucao",
+            "name": "Navego ate a pagina de introducao",
             "match": {
               "location": "WalkthroughTest.setUpPage()"
             },
@@ -25,15 +25,15 @@
       },
       {
         "line": 7,
-        "name": "Realizar validação dos textos da tela de indrucao",
+        "name": "Realizar validação dos textos da tela de introducao",
         "description": "",
-        "id": "validacao-textos-da-tela-de-introdução;realizar-validação-dos-textos-da-tela-de-indrucao",
+        "id": "validacao-textos-da-tela-de-introdução;realizar-validação-dos-textos-da-tela-de-introducao",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5215729500,
+              "duration": 5279885800,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 3735363600,
+              "duration": 3678654100,
               "status": "passed"
             },
             "line": 9,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 499800,
+              "duration": 1092100,
               "status": "passed"
             },
             "line": 10,

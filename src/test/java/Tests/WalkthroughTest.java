@@ -24,7 +24,7 @@ public class WalkthroughTest extends TestBase {
 		return "Walkthrough Test";
 	}
 
-	@Given("^Navego ate a pagina de indrucao$")
+	@Given("^Navego ate a pagina de introducao$")
 	public void setUpPage() {
 		introd = new PageIntroducao(driver);
 	}

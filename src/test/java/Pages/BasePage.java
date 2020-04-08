@@ -61,8 +61,12 @@ public abstract class BasePage {
 
 		org.apache.commons.io.FileUtils.copyFile(f, new File(folder_name + "/" + file_name));
 
-		Reporter.log("<br><img src='" + folder_name + "/" + file_name + "' height='400' width='400'/><br>");
+		extracted(folder_name, file_name);
 
+	}
+
+	private void extracted(String folder_name, String file_name) {
+		Reporter.log("<br><img src='"  + "screenshot" + "/" + file_name + "' height='400' width='400'/><br>");
 	}
 
 	public void scrollHorizontal(String valor) {

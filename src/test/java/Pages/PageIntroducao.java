@@ -23,29 +23,21 @@ public class PageIntroducao extends BasePage {
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_title")
 	public MobileElement lblTitulo;
 
-//	@iOSFindBy(xpath = "")
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_subtitle")
 	public MobileElement lblSubTitulo;
 
-//	@iOSFindBy(xpath = "")
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_image")
 	public MobileElement imgPonto;
 	
-//	@iOSFindBy(xpath = "")
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_description")
 	public MobileElement lblDescription;
 	
-//	@iOSFindBy(xpath = "")
 	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.view.View[1]")
 	public MobileElement numPage;
 	
-	
-//	@iOSFindBy(xpath = "")
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_title")
 	public MobileElement lblTituloDois;
 	
-
-
 	public void validaTelaIntroducao() throws IOException {
 		btnPularIntroducao.isDisplayed();
 		assertEquals("PULAR INTRODUÇÃO", btnPularIntroducao.getText());
@@ -62,7 +54,6 @@ public class PageIntroducao extends BasePage {
 		tirarScreenShot();
 		swipeHorizontalElementExample(lblTituloDois);
 		tirarScreenShot();
-		
 	}
 
 }

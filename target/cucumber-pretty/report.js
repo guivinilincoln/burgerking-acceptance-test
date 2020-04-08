@@ -15,7 +15,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.step({
-  "name": "Navego ate a pagina de indrucao",
+  "name": "Navego ate a pagina de introducao",
   "keyword": "Given "
 });
 formatter.match({
@@ -25,7 +25,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Realizar validação dos textos da tela de indrucao",
+  "name": "Realizar validação dos textos da tela de introducao",
   "description": "",
   "keyword": "Scenario",
   "tags": [
