@@ -1,0 +1,8 @@
+{
+	"criarNovoCadastro": {
+		"nome": "",
+		"cpf": "",
+		"email": "",
+		"senha": ""
+	}
+}

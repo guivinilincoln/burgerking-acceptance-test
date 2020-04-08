@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Tela de introdução",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 118842000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navego ate a pagina de indrucao",
+            "match": {
+              "location": "WalkthroughTest.setUpPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Realizar validação dos textos da tela de indrucao",
+        "description": "",
+        "id": "validacao-textos-da-tela-de-introdução;realizar-validação-dos-textos-da-tela-de-indrucao",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5215729500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou na tela inicial do aplicativo",
+            "match": {
+              "location": "WalkthroughTest.que_estou_na_tela_inicial_do_aplicativo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3735363600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "realizo a validacao das tela de walkthrough",
+            "match": {
+              "location": "WalkthroughTest.realizo_a_validacao_das_telas_de_walkthrough()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico em quero conhecer",
+            "match": {
+              "location": "WalkthroughTest.clico_em_quero_conhecer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@introducao"
+          }
+        ]
+      }
+    ],
+    "name": "Validacao textos da tela de introdução",
+    "description": "",
+    "id": "validacao-textos-da-tela-de-introdução",
+    "keyword": "Feature",
+    "uri": "stepDefinition/01Walkthrough.feature",
+    "tags": [
+      {
+        "name": "@introducao",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+Pages\PageIntroducao.class
+Tests\AbstractBaseTests\TestBase.class
+Tests\WalkthroughTest.class
+Pages\BasePage.class
+Pages\WaitConfig.class
+Tests\AbstractBaseTests\Plataforma.class
