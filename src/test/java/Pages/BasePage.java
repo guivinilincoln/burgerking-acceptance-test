@@ -40,10 +40,10 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public abstract class BasePage {
-	protected final AppiumDriver driver;
+	protected final AppiumDriver<?> driver;
 	public static AndroidDriver<MobileElement> driverAndroid;
 
-	protected BasePage(AppiumDriver driver) {
+	protected BasePage(AppiumDriver<?> driver) {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver, 10, TimeUnit.SECONDS), this);
 	}
@@ -132,20 +132,24 @@ public abstract class BasePage {
 
 	public void swipeHorizontalElementExample(WebElement el) {
 		String orientation = driver.getOrientation().value();
-
-		// get the X coordinate of the upper left corner of the element, then add the
-		// element's width to get the rightmost X value of the element
 		int leftX = el.getLocation().getX();
 		int rightX = leftX + el.getSize().getWidth();
-
-		// get the Y coordinate of the upper left corner of the element, then subtract
-		// the height to get the lowest Y value of the element
 		int upperY = el.getLocation().getY();
 		int lowerY = upperY - el.getSize().getHeight();
 		int middleY = (upperY - lowerY) / 2;
-
 		orientation.equals("landscape");
 		driver.swipe(rightX - 5, middleY, leftX + 5, middleY, 500);
+	}
+	
+	public void swipeVerticalElementExample(WebElement el) {
+		String orientation = driver.getOrientation().value();
+		int leftX = el.getLocation().getX();
+		int rightX = leftX + el.getSize().getWidth();
+		int upperY = el.getLocation().getY();
+		int lowerY = upperY - el.getSize().getHeight();
+		int middleY = (upperY - lowerY) / 2;
+		orientation.equals("portrait");
+		driver.swipe(leftX + 5, middleY, rightX - 5, middleY, 500);
 	}
 
 }
