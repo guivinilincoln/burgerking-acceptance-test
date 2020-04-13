@@ -1,2 +1,2 @@
 # burgerking-acceptance-test
-Projeto de estudos de automação de app do BK cross platform
+Projeto de automação de app do BK cross platform
