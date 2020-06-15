@@ -55,7 +55,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "clico em quero conhecer",
+  "name": "clico em pular intraducao",
   "keyword": "Then "
 });
 formatter.match({

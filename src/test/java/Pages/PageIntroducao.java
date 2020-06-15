@@ -23,20 +23,69 @@ public class PageIntroducao extends BasePage {
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_title")
 	public MobileElement lblTitulo;
 
+//	@iOSFindBy()
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_subtitle")
 	public MobileElement lblSubTitulo;
 
+//	@iOSFindBy()
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_image")
 	public MobileElement imgPonto;
 	
+//	@iOSFindBy()
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_description")
 	public MobileElement lblDescription;
 	
-	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.view.View[1]")
-	public MobileElement numPage;
 	
+//	@iOSFindBy()
 	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_title")
 	public MobileElement lblTituloDois;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_description")
+	public MobileElement lblSubTituloDois;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(xpath = "//*[contains(@text, \"TERCEIRA ETAPA\")]")
+	public MobileElement lblTituloTres;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_description")
+	public MobileElement lblSubTituloTres;
+			
+//	@iOSFindBy()
+	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_image")
+	public MobileElement imgSmartPhone;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ImageView")
+	public MobileElement imgSaco;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ImageView")
+	public MobileElement imgHamburguer;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/tutorial_title")
+	public MobileElement lblTituloQuatro;
+
+//	@iOSFindBy()
+	@AndroidFindBy(xpath  = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.TextView[2]")
+	public MobileElement lblSubTituloQuatro;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(xpath  = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.TextView[1]")
+	public MobileElement lblTituloUltimo;
+	
+//	@iOSFindBy()
+	@AndroidFindBy(xpath  = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.TextView[2]")
+	public MobileElement lblSubTituloUltimo;
+	
+	
+//	@iOSFindBy()
+	@AndroidFindBy(id = "burgerking.com.br.appandroid:id/imageTop")
+	public MobileElement imgBk;
+	
+	
 	
 	public void validaTelaIntroducao() throws IOException {
 		btnPularIntroducao.isDisplayed();
@@ -53,6 +102,27 @@ public class PageIntroducao extends BasePage {
 		assertEquals("PULAR INTRODUÇÃO", btnPularIntroducao.getText());
 		tirarScreenShot();
 		swipeHorizontalElementExample(lblTituloDois);
+		assertEquals("SEGUNDA ETAPA", lblTituloDois.getText());
+		assertEquals("Faça o seu pedido.", lblSubTituloDois.getText());
+		tirarScreenShot();	
+		swipeHorizontalElementExample(imgSmartPhone);
+		assertEquals("TERCEIRA ETAPA", lblTituloTres.getText());
+		assertEquals("Ao chegar no restaurante, faça o scan do QR code do seu pedido. Seu lanche será feito na hora.", lblSubTituloTres.getText());
+		tirarScreenShot();
+		swipeHorizontalElementExample(imgSaco);
+		assertEquals("QUARTA ETAPA", lblTituloQuatro.getText());
+		assertEquals("Espere ser chamado para retirar o pedido.", lblSubTituloQuatro.getText());
+		tirarScreenShot();
+		swipeHorizontalElementExample(imgHamburguer);
+		assertEquals("E POR ÚLTIMO", lblTituloUltimo.getText());
+		assertEquals("Depois é só aproveitar mais um delicioso lanche do BK.", lblSubTituloUltimo.getText());
+		tirarScreenShot();
+
+	}
+
+	public void btnPularIntroducao() throws IOException {
+		btnPularIntroducao.click();
+		imgBk.isDisplayed();
 		tirarScreenShot();
 	}
 

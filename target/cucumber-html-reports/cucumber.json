@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 182260800,
+              "duration": 123522900,
               "status": "passed"
             },
             "line": 5,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5279885800,
+              "duration": 4926453500,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 3678654100,
+              "duration": 14530946000,
               "status": "passed"
             },
             "line": 9,
@@ -57,11 +57,11 @@
           },
           {
             "result": {
-              "duration": 1092100,
+              "duration": 1746977300,
               "status": "passed"
             },
             "line": 10,
-            "name": "clico em quero conhecer",
+            "name": "clico em pular intraducao",
             "match": {
               "location": "WalkthroughTest.clico_em_quero_conhecer()"
             },

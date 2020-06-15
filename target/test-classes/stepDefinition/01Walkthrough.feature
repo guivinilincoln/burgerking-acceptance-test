@@ -7,4 +7,4 @@ Feature: Validacao textos da tela de introdução
   Scenario: Realizar validação dos textos da tela de introducao
     Given que estou na tela inicial do aplicativo
     When realizo a validacao das tela de walkthrough
-    Then clico em quero conhecer
+    Then clico em pular intraducao

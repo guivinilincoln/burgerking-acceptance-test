@@ -39,8 +39,10 @@ public class WalkthroughTest extends TestBase {
 		introd.validaTextos();
 	}
 
-	@Then("^clico em quero conhecer$")
+	@Then("^clico em pular intraducao$")
 	public void clico_em_quero_conhecer() throws InterruptedException, IOException {
+		introd.btnPularIntroducao();
+		
 	}
 
 	

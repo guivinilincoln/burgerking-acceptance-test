@@ -1,0 +1,25 @@
+# Created at 2020-06-10T12:49:45.189
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-10T12:49:56.809
+Unexpected IOException: 8,1,Tests.WalkthroughTest,setUpAppium(Tests.WalkthroughTest),null,An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\005C\005CUsers\005C\005Cguiga\005C\005CAppData\005C\005CLocal\005C\005CAndroid\005C\005CSdk\005C\005Cplatform-tools\005C\005Cadb.exe -P 5037 -s 9feecc59 shell pm install -r /data/local/tmp/appium_cache/cd247f042368990c9f33b2d7bf2390d8cf4f4e24.apk' exited with code 1'; Stderr: ''; Code: '1' (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 36.87 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver,null,An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\005C\005CUsers\005C\005Cguiga\005C\005CAppData\005C\005CLocal\005C\005CAndroid\005C\005CSdk\005C\005Cplatform-tools\005C\005Cadb.exe -P 5037 -s 9feecc59 shell pm install -r /data/local/tmp/appium_cache/cd247f042368990c9f33b2d7bf2390d8cf4f4e24.apk' exited with code 1'; Stderr: ''; Code: '1' (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 36.87 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver,WalkthroughTest>TestBase.setUpAppium:55 \00BB WebDriver An unknown server-side err...,org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\005C\005CUsers\005C\005Cguiga\005C\005CAppData\005C\005CLocal\005C\005CAndroid\005C\005CSdk\005C\005Cplatform-tools\005C\005Cadb.exe -P 5037 -s 9feecc59 shell pm install -r /data/local/tmp/appium_cache/cd247f042368990c9f33b2d7bf2390d8cf4f4e24.apk' exited with code 1'; Stderr: ''; Code: '1' (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 36.87 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver\000A
+
+
+# Created at 2020-06-10T12:49:56.814
+Unexpected IOException: 9,1,Tests.WalkthroughTest,setUpClass(Tests.WalkthroughTest),null,null,null
+
+
+# Created at 2020-06-10T12:49:56.831
+Unexpected IOException: 9,1,Tests.WalkthroughTest,tearDownAppium(Tests.WalkthroughTest),null,null,null
+
+
+# Created at 2020-06-10T12:49:56.876
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
