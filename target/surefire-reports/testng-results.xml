@@ -8,51 +8,51 @@
       <![CDATA[<div "result">que estou na tela inicial do aplicativo (PASSED : 4s)</div>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_15PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_36PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_18PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_39PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_21PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_42PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_25PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_45PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_28PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_49PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
       <![CDATA[<div "result">realizo a validacao das tela de walkthrough (PASSED : 14s)</div>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='screenshot/15-06-2020__05_09_30PM.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='screenshot/15-06-2020__05_41_50PM.png' height='400' width='400'/><br>]]>
     </line>
     <line>
       <![CDATA[<div "result">clico em pular intraducao (PASSED : 1s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="25191" started-at="2020-06-15T20:09:04Z" finished-at="2020-06-15T20:09:30Z">
+  <suite name="Surefire suite" duration-ms="24500" started-at="2020-06-15T20:41:26Z" finished-at="2020-06-15T20:41:51Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="25191" started-at="2020-06-15T20:09:04Z" finished-at="2020-06-15T20:09:30Z">
+    <test name="Surefire test" duration-ms="24500" started-at="2020-06-15T20:41:26Z" finished-at="2020-06-15T20:41:51Z">
       <class name="Tests.WalkthroughTest">
-        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="setUpAppium" is-config="true" duration-ms="40404" started-at="2020-06-15T17:08:24Z" finished-at="2020-06-15T17:09:04Z">
+        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="setUpAppium" is-config="true" duration-ms="39904" started-at="2020-06-15T17:40:46Z" finished-at="2020-06-15T17:41:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAppium -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="setUpClass" is-config="true" duration-ms="124" started-at="2020-06-15T17:09:04Z" finished-at="2020-06-15T17:09:05Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="setUpClass" is-config="true" duration-ms="109" started-at="2020-06-15T17:41:26Z" finished-at="2020-06-15T17:41:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="abrirApp()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="abrirApp" is-config="true" duration-ms="3611" started-at="2020-06-15T17:09:05Z" finished-at="2020-06-15T17:09:08Z">
+        <test-method status="PASS" signature="abrirApp()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="abrirApp" is-config="true" duration-ms="3466" started-at="2020-06-15T17:41:26Z" finished-at="2020-06-15T17:41:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abrirApp -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="runScenario" duration-ms="21349" started-at="2020-06-15T17:09:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-15T17:09:30Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="runScenario" duration-ms="20824" started-at="2020-06-15T17:41:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-15T17:41:50Z">
           <params>
             <param index="0">
               <value>
@@ -73,36 +73,36 @@
               <![CDATA[<div "result">que estou na tela inicial do aplicativo (PASSED : 4s)</div>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_15PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_36PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_18PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_39PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_21PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_42PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_25PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_45PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_28PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_49PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
               <![CDATA[<div "result">realizo a validacao das tela de walkthrough (PASSED : 14s)</div>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='screenshot/15-06-2020__05_09_30PM.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='screenshot/15-06-2020__05_41_50PM.png' height='400' width='400'/><br>]]>
             </line>
             <line>
               <![CDATA[<div "result">clico em pular intraducao (PASSED : 1s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2020-06-15T17:09:30Z" finished-at="2020-06-15T17:09:30Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2020-06-15T17:41:50Z" finished-at="2020-06-15T17:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="tearDownAppium()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="tearDownAppium" is-config="true" duration-ms="1818" started-at="2020-06-15T17:09:30Z" finished-at="2020-06-15T17:09:32Z">
+        <test-method status="PASS" signature="tearDownAppium()[pri:0, instance:Tests.WalkthroughTest@4dfa3a9d]" name="tearDownAppium" is-config="true" duration-ms="1753" started-at="2020-06-15T17:41:51Z" finished-at="2020-06-15T17:41:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->

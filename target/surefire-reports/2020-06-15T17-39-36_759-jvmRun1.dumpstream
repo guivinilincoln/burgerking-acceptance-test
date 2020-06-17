@@ -1,0 +1,25 @@
+# Created at 2020-06-15T17:40:38.024
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-15T17:40:55.760
+Unexpected IOException: 8,1,Tests.WalkthroughTest,setUpAppium(Tests.WalkthroughTest),null,An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability.  (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 76.78 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver,null,An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability.  (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 76.78 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver,WalkthroughTest>TestBase.setUpAppium:55 \00BB WebDriver An unknown server-side err...,org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of 'uiautomator2ServerLaunchTimeout' capability.  (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 76.78 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DESKTOP-PVI0MP1'\002C ip: '192.168.0.29'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: io.appium.java_client.android.AndroidDriver\000A
+
+
+# Created at 2020-06-15T17:40:55.765
+Unexpected IOException: 9,1,Tests.WalkthroughTest,setUpClass(Tests.WalkthroughTest),null,null,null
+
+
+# Created at 2020-06-15T17:40:55.782
+Unexpected IOException: 9,1,Tests.WalkthroughTest,tearDownAppium(Tests.WalkthroughTest),null,null,null
+
+
+# Created at 2020-06-15T17:40:55.832
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
