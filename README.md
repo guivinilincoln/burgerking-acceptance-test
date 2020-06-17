@@ -2,28 +2,32 @@
 
 
 ## Pré-requisitos:
-Java sdk8
-Eclipse
-Appium
-Cmder
+<ul>
+<li>Java sdk8</li>
+<li>Eclipse</li>
+<li>Appium</li>
+<li>Cmder</li>
+</ul>
 
 
 ## Configuração de variaveis de ambiente
-JAVA_HOME %ProgramFiles%\Java\jdk1.8.0_231
-MAVEN_HOME C:\qa\tools\apache-maven-3.6.3
-cmder_root C:\qa\tools\cmder
-ANDROID_HOME C:\Users\gmartins\AppData\Local\Android\Sdk
-
+<ul>
+<li>JAVA_HOME %ProgramFiles%\Java\jdk1.8.0_231</li>
+<li>MAVEN_HOME C:\qa\tools\apache-maven-3.6.3</li>
+<li>cmder_root C:\qa\tools\cmder</li>
+<li>ANDROID_HOME C:\Users\gmartins\AppData\Local\Android\Sdk</li>
+</ul>
 
 ## Path:
-%JAVA_HOME%\bin
-%cmder_root%\bin
-%ANDROID_HOME%\tools
-%ANDROID_HOME%\bin
-%ANDROID_HOME%\platform-tools
-%MAVEN_HOME%\bin
-%ANDROID_HOME%\tools\bin
-
+<ul>
+<li>%JAVA_HOME%\bin</li>
+<li>%cmder_root%\bin</li>
+<li>%ANDROID_HOME%\tools</li>
+<li>%ANDROID_HOME%\bin</li>
+<li>%ANDROID_HOME%\platform-tools</li>
+<li>%MAVEN_HOME%\bin</li>
+<li>%ANDROID_HOME%\tools\bin</li>
+</ul>
 
 ## Ativar emulador do Android Studio
 ### Acessar o caminho:
@@ -31,7 +35,7 @@ ANDROID_HOME C:\Users\gmartins\AppData\Local\Android\Sdk
 
 emulator ``` @nome_dispositivo_criado ``` 
 
-Exemplo: ``` emulator @Nexus_5X_API_29_x86 ```
+Exemplo: ``` emulator @Nexus_5X_API_29_x86 ``` 
 
 ## Rodar testes pelo cmd/cmder por feature
 ### Acessar o caminho:
