@@ -62,3 +62,12 @@ Rodar debug normalmente como em desenvolvimento, usando f6 para proximo passo e 
 
 ``` mvn test -Dcucumber.options="--tags @smoke1 --tags @smoke2" ```
 
+
+## Gerando evidencias
+### Uitlizar os seguites comandos:
+``` mvn clean test ``` para rodar todas as steps de teste
+
+``` mvn verify -DskipTests ``` para gerar um relatorio com visual mais agrádavel 
+
+
+
